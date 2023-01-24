@@ -75,7 +75,7 @@ body {
 }
 
 .Bannerimg {
-    background-image: url(images/Sofa.jpg);
+    background-image: url(Sofa.jpg);
     width: 90%;
     background-repeat: no-repeat;
     display: block;
@@ -121,7 +121,7 @@ body {
 .Lorem1img,
 .Lorem3img,
 .Lorem2img {
-    background-image: url(images/IspaceSofa.png);
+    background-image: url(IspaceSofa.png);
     width: auto;
     height: 200px;
     background-repeat: no-repeat;
