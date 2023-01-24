@@ -1,0 +1,267 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #353839;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.Container {
+    background-color: white;
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 50px 0px;
+}
+
+.MenuC {
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+}
+
+.Menu {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: auto;
+    flex-shrink: 0;
+    flex-basis: 100px;
+    justify-content: center;
+}
+
+.Menu div {
+    display: inline-block;
+    padding: 40px;
+    text-align: center;
+}
+
+#HOME {
+    background: greenyellow;
+    /* height: 20px; */
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.Ispace {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 60px;
+    flex-wrap: wrap;
+    color: #726863;
+}
+
+.Ispace div::first-letter {
+    color: greenyellow;
+    font-size: 90px;
+}
+
+.banner,
+.threecontainers {
+    display: flex;
+    justify-content: center;
+    padding-left: 15px;
+    flex-wrap: wrap;
+}
+
+.Bannerimg {
+    background-image: url(images/Sofa.jpg);
+    width: 90%;
+    background-repeat: no-repeat;
+    display: block;
+    height: 500px;
+}
+
+.C1,
+.C2,
+.C3 {
+    height: 400px;
+    background-color: #353839;
+}
+
+.C0 {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sample {
+    display: flex;
+    width: 100%;
+}
+
+.threecontainers {
+    margin: 30px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Lorem1,
+.Lorem2,
+.Lorem3 {
+    background-color: greenyellow;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Candara';
+}
+
+.Lorem1img,
+.Lorem3img,
+.Lorem2img {
+    background-image: url(images/IspaceSofa.png);
+    width: auto;
+    height: 200px;
+    background-repeat: no-repeat;
+}
+
+.Lorem1text,
+.Lorem2text,
+.Lorem3text {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: #353839;
+    color: white;
+}
+
+.C1Container,
+.C2Container,
+.C3Container {
+    width: 33.33333333%;
+}
+
+.C2Container {
+    margin: 0px 60px;
+}
+
+.C1ImgTxt,
+.C2ImgTxt,
+.C3ImgTxt {
+    padding: 30px 10px 30px 0px;
+    word-spacing: 10px;
+}
+
+h2 {
+    font-weight: normal;
+    color: #353839;
+}
+
+.C1Txtlist li::before {
+    content: '>';
+}
+
+.C1Txtlist li {
+    list-style: none;
+    font-size: 15px;
+    line-height: 40px;
+}
+
+#C2Para {
+    width: 100%;
+    margin: 15px 0px;
+    line-height: 26px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+}
+
+.C2TxtlistContainer>p {
+    color: green;
+    line-height: 23px;
+    font-family: 'Candara';
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:active {
+    color: red
+}
+
+a:hover {
+    color: yellow;
+}
+
+.ReadMore {
+    background: #353839;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 30%;
+    padding: 5px;
+}
+
+.LoremTwo {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.Lorem15 {
+    margin-right: 21px;
+    display: flex;
+    width: 48%;
+}
+
+.Loremdollar {
+    margin-left: 21px;
+    display: flex;
+    width: 48%;
+}
+
+.Lorem15C1 {
+    width: 20%;
+    font-size: 50px;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    padding: 15px;
+    background-color: greenyellow;
+    color: white;
+    padding-top: 25px;
+    padding-right: 23px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Lorem15Content {
+    padding: 10px;
+    width: 80%;
+    background-color: #353839;
+    line-height: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#topheight {
+    color: greenyellow;
+}
+
+.Design {
+    width: 100%;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #353839;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
